@@ -29,3 +29,5 @@ if (isAdult && hasID) {
 let num = 10;
 num += 5; // num = num + 5
 console.log("After += :", num);
+
+console.log(5 + "5"); 
