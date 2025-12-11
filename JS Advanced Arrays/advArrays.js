@@ -16,7 +16,6 @@ console.log('filter ->', filteredArr); // [2, 4]
 const sum = nums.reduce((acc, num) => acc + num, 0); // acc is the acummulated (running total)
 console.log('reduce (sum) ->', sum); // 15
 
-
 // Chaining example: filter evens then double them
 const doubleEvens = nums
     .filter(n => n % 2 === 0)
