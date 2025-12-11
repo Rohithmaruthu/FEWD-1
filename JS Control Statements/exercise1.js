@@ -35,14 +35,14 @@ function suggestOutfit(temperature, isRaining, isWindy) {
         outfit = "heavy coat and boots";
     } else if (temperature >= 0 && temperature <= 15) {
         outfit = "warm jacket";
-    } else if (temperature >= 16 & temperature <= 25) {
+    } else if (temperature >= 16 && temperature <= 25) {
         outfit =  "light sweater";
     } else if (temperature > 25) {
         outfit = "t-shirt";
     }
 
     if (isRaining == true) {
-        outfit += " and umberlla";
+        outfit += " and umbrella";
     }
     
     if (isWindy == true) {
